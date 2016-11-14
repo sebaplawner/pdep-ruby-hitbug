@@ -5,7 +5,7 @@ class ContenidoSimple < Contenido
 	include MB
 	
 	def initialize
-		raise "No se puede inicializar una clase abstracta"
+		super
 	end
 
 	def entraEnBiblioteca biblioteca
