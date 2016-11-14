@@ -4,7 +4,7 @@ class ContenidoCarpeta < ContenidoEspecial
 	attr_reader :referencias
 
 	def initialize nombre, referencias
-		super nombre
+		@nombre = nombre
 		@referencias = referencias
 	end
 

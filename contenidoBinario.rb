@@ -7,7 +7,7 @@ class ContenidoBinario < ContenidoSimple
 	attr_writer :compresion
 
 	def initialize nombre, bytes, compresion = SINCOMPRESION
-		super nombre
+		@nombre = nombre
 		@bytes = bytes
 		@compresion = compresion
 	end

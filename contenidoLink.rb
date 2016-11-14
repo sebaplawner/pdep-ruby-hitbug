@@ -2,7 +2,7 @@ require './contenidoEspecial'
 
 class ContenidoLink < ContenidoEspecial
 	def initialize nombre, referencia
-		super nombre
+		@nombre = nombre
 		@referencia = referencia
 	end
 

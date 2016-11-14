@@ -3,8 +3,8 @@ require './biblioteca'
 class Contenido
 	attr_reader :nombre, :ultimaModificacion
 
-	def initialize nombre
-		@nombre = nombre
+	def initialize
+		raise "No se puede inicializar una clase abstracta"
 	end
 
 	def sePuedeSubir biblioteca

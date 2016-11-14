@@ -2,7 +2,7 @@ require './contenidoSimple'
 
 class ContenidoTexto < ContenidoSimple
 	def initialize nombre, lineas
-		super nombre
+		@nombre = nombre
 		@lineas = lineas
 	end
 
